@@ -8,6 +8,9 @@ const Footer = () => {
                 <div className='left'>
                     <p>© Airbnb,inc . Privacy . Terms . Sitemap </p>
                 </div>
+                <div style={{color: 'gray'}}>
+                    <p>©CopyRight {new Date().getFullYear()} by Md. Azizul Haque Jany</p>
+                </div>
                 <div className='right'>
                     <div className='place'>
                         <i className="fas fa-globe"></i>
