@@ -20,7 +20,7 @@ const Navabr = () => {
 
     const [searching, setSearching] = useState(false);
 
-    const months = ['Jan', 'Feb', 'March', 'Apr', 'May', 'Juin', 'Juil', 'Avg', 'Sep', 'Okt', 'Nov', 'Dec'];
+    const months = ['Jan', 'Feb', 'March', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
     const onChange1 = date => {
         setTakeIn({month: months[date.getMonth()+1], day: date.getDate()});
@@ -59,14 +59,14 @@ const Navabr = () => {
             </div>
             <div className='upside'>
                 <div className='nav-brand'>
-                    <a href='#'>Airbnb</a>
+                    <a href='/'><strong>airbnb</strong></a>
                 </div>
                 <a href='#header' onClick={() => setScroll(false)} className={scroll ? 'show search-link':  'hide'}><p>Start your search</p><i className='fas fa-search'></i></a>
                 <div className={`search-sec ${scroll ? 'hide':'show'}`}>
                     <ul className='filter'>
-                        <li><a href='#'>Places to stay</a></li>
-                        <li><a href='#'>Experiences</a></li>
-                        <li><a href='#'>Online experiences</a></li>
+                        <li><a href='/'>Places to stay</a></li>
+                        <li><a href='/'>Experiences</a></li>
+                        <li><a href='/'>Online experiences</a></li>
                     </ul>
                 </div>
                 <div className='info'>

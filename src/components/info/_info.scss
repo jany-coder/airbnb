@@ -1,0 +1,49 @@
+#info-filter{
+    margin-top: 40px;
+    .i-container{
+        width: 90%;
+        margin: 0 auto;
+        .filter-city{
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            overflow-x: auto;
+            &::-webkit-scrollbar{width: 0; height: 0;}
+            span{
+                margin: 0 10px;
+                cursor: pointer;
+                min-width: fit-content;
+                p{
+                    font-family: sans-serif;
+                }
+                .under{
+                    &::after{
+                        content: '';
+                        width: 100%;
+                        height: 2px;
+                        background-color: crimson !important;
+                        display: block;
+                        margin-top: 4px;
+                    }
+                }
+                
+            }
+        }
+        .cities{
+            margin-top: 20px;
+            .column{
+                .text-wrap{
+                    padding: 10px 0;
+                    font-family: sans-serif;
+                    h4{
+                        color: #333;
+                        font-weight: 500;
+                    }
+                    p{
+                        color: #777;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -19,14 +19,14 @@ const Header = () => {
     })
 
     return (
-        <div id="header">
+        <div id='header'>
             <Navbar />
-            <div>
+            <div className='center-title'>
                 <h4>Not sure where to go? Perfect</h4>
                 <h5>I'm flexible</h5>
             </div>
-            <div>
-                <div className={`res-footer`} style={{bottom: scroll ? '-48px' : '0'}}>
+            <div className={`res-footer`} style={{bottom: scroll ? '-48px':'0'}}>
+                <div className='icons'>
                     <i className='fas fa-search'></i>
                     <i className="far fa-heart"></i>
                     <i className="far fa-user-circle"></i>
