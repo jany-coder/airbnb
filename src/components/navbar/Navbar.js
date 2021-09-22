@@ -147,17 +147,39 @@ const Navabr = () => {
                             <i className='fas fa-search'></i>
                             <div class="dropdown-menu guest-dropdown" aria-labelledby="dropdownMenuLink">
                                 <div class="d-flex align-items-center justify-content-between p-4">
-                                        <div>
-                                            <h5>Adults</h5>
-                                            <p>Ages 13 or above</p>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <i className='fas fa-minus-circle p-2'></i>
-                                            <div>0</div>
-                                            <i className='fas fa-plus-circle p-2'></i>
+                                    <div>
+                                        <h5>Adults</h5>
+                                        <p>Ages 13 or above</p>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i className='fas fa-minus-circle p-2'></i>
+                                        <div>0</div>
+                                        <i className='fas fa-plus-circle p-2'></i>
                                     </div>
                                 </div>
-                                <hr />
+                                <div class="d-flex align-items-center justify-content-between p-4">
+                                    <div>
+                                        <h5>Children</h5>
+                                        <p>Ages 13 or above</p>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i className='fas fa-minus-circle p-2'></i>
+                                        <div>0</div>
+                                        <i className='fas fa-plus-circle p-2'></i>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between p-4">
+                                    <div>
+                                        <h5>Children ages 2-12</h5>
+                                        <p>Ages 13 or above</p>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i className='fas fa-minus-circle p-2'></i>
+                                        <div>0</div>
+                                        <i className='fas fa-plus-circle p-2'></i>
+                                    </div>
+                                </div>
+                               
                             </div>
                         </div>
 
