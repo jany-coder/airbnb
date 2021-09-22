@@ -2,8 +2,33 @@
     display: none !important;
 }
 .show{
-    display: flex !important;
+    //display: flex !important;
 }
+
+// dropdown-menu
+.d-menu-custom li a {
+    color:rgb(100, 100, 100)!important;
+}
+
+.d-menu-custom {
+    border-radius: 15px!important;
+}
+
+.d-menu-custom li {
+    padding: 5px 0;
+    width: 250px;
+
+}
+
+//guest dropdown
+
+.guest-dropdown {
+    width: 490px;
+    border-radius: 20px;
+}
+
+
+//dropdown-menu end
 .bg-white{
     background-color: #fff !important; 
     border-bottom: 1px solid #999;
